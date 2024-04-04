@@ -1,0 +1,47 @@
+year;    task;     short descriptio;                main metric;                  definition;    justification; class balanced test set; notes
+2023;    2;        NER;                             macro F1;                     no;            no;            no;                      -
+2023;    3;        Framing;                         macro F1 and micro F1;        no;            no;            no;                      Subtask 1 is a multi-class classification problem. "We used macro F1 as the official evaluation measure, but we also computed micro F1". Subtask 2 is a multi-label multi-class classification problem. "We used micro F1 as the official evaluation measure, but we also computed macro F1". Subtask 3 is a multi-label multi-class classification problem. "We used micro F1 as the official evaluation measure."
+2023;    4;        Argument;                        macro F1BAR;                  yes;           no;            no;                    
+2023;    5;        Clickbait;                       balanced accuracy;            no;            no;            no;
+2023;    6;        Legal Texts;                     weighted F1 score, F1 score;  no; 		 no; 		no; 		         different task -> different metric, weighted is said to be "weighted based on test data"
+2023;    8;        Claim identification;            macro F1;                     no;            no;            no;                    
+2023;    10;       Explanation/sexism;              macro F1;                     no;            no;            no;                  
+2023;    12;       African lang;                    weighted F1;                  yes;           no;            no;
+2022;    2;        Stance detection;                macro F1;                     no;            no/weak;       no;                      "due to the imbalanced datasets"
+2022;    3;        Semantic knowledge;              F1-Macro;                     no;            no;            no;
+2022;    4;        Condescendig language;           macro-averaged F1-score;      no;            no;            no;
+2022;    5;        Misogyny;                        macro-average F1-score;       yes;           no;            no;
+2022;    6;        Sarcasm Arabic English;          macro-average F1-score;       yes;           no;            no;
+2022;    7;        Implicit understanding;          accuracy;                     yes;           no;            no;
+2022;    11;       NER;                             macro-averaged F1;            no;            no;            no;
+2021;    2;        WSD;                             accuracy;                     no;            yes;           yes;
+2021;    4;        Reading comprehension;           accuracy;                     no;            no?;           unclear if choices are equally likely;
+2021;    5;        Toxic span detect;               macro-F1;                     no;            yes;           no;                      refers to Martino et al 2019 for definition, but Martino 2019 does not contain a dedicated motivation ("This requires an evaluation measure that gives credit for partial overlaps", where it is unclear how this justifies a macro F1 score in the end...)
+2021;    6;        Detect persuasion techniques;    F1 micro (and macro);         no;            no/weak;       no;                      "as these are multi-class multi-label tasks, where the labels are imbalanced"
+2021;    7;        Humor/Offense detection;         Accuracy and macro F1;        yes (typos?);  no;            no;
+2021;    9;        Fact verification;               Micro(?) F1, accuracy?;       no;            no;            no;
+2021;    12;       Learning with Disagreements;     cross entropy;                no;            yes;           no;
+2021;    11;       KG graph structuring;            F1;                           no;            no;            no;                      "standard precision, recall, and F1-score metrics were leveraged"
+2020;    1;        Detecting lexical change;        accuracy;                     no;            yes;           yes (but quote "later turned out to be imbalanced");
+2020;    2;        NLI;                             F1;                           no;            no;            no;                      "standard F1 measure"
+2020;    4;        CS validation;                   accuracy;                     no;            yes;           yes;
+2020;    5;        Counterfactual recognition;      F1;                           no;            no;            no;
+2020;    6;        Definition extraction;            F1, median(?) F1;             no;            no;            no;                      not really clear what measures where used for evaluation
+2020;    7;        Humor;                           accuracy;                     no;            no;            no?;
+2020;    8;        Humor;                           macro F1;                     no;            no;            no;                      "macro F1 score that will help us to evaluate and analyse the individual class performance"... not clear why other metrics can't do this...
+2020;    9;        Tweet sentiment;                 weighted F1;                  yes;           no/weak;       no;                      "We use a weighted F1 score since the number of instances per class is not equal"
+2020;    11;       Propaganda detection;            accuracy/micro F1;            no;            no;            no?;
+2020;    12;       Offensive lang detection;        macro F1;                     no;            no;            no;
+2019;    3;        Emoticon detection;              micro F1;                     yes;           no;            no;
+2019;    5;        Hate-speech detection;           macro F1;                     yes;           no/weak;       no;                      "In order to provide a measure that is independent on the class size"
+2019;    6;        Offensive Language;              macro-averaged F1;            no;            no;            no;                      "Given the strong imbalance between the number of instances in the different classes across the three tasks, we used the macro-averaged F1-score"
+2019;    9;        Suggestion Mining;               F1 score;                     no;            no;            no;
+2019;    8;        Fact checking;                   accuracy, F1, macro Recall;   no;            no;            no;                      mentions "attractive properties of Macro Recall", but uses accuracy as main ranking.
+2019;    7;        Determining Rumour;              macro-averaged F1;            no;            no;            no;                      "Care must be taken to accommodate the skew towards the 'comment' class, which dominates, as well as being the least helpful type of data in establishing rumour veracity. Therefore we used macro-averaged F1"
+2019;    4;        News classification;             accuracy, no;                 no;            no;            no
+2018;    1;        Affect in tweets;                accuracy maco/micro F1;       yes;           no;            no
+2018;    2;        Emoji prediction;                macro averages over acc., F1; no;            no/weak;       no;                      "because of the skewed distribution of the label set we opted for macro average over all labels"
+2018;    3;        Irony prediction;                macro-averaging;              yes;           no/weak;       no;                      "implies that all class labels have equal weight in the final score." (not fully accurate)
+2018;    4;        (Literary) character recognition;macro F1;                     yes;           no;            no;                      Metric selection "follow Chen 2017", but Chen 2017 also do not seem to provide a justification
+2018;    10;       Capturing attributes;            average F1;                   no;            no;            no;
+2018;    7;        Relation classification;         macro F1;                     no;            no;            no;
