@@ -40,8 +40,8 @@ year,task,short description,main metric,definition,justification,class balanced 
 2019,7,Determining Rumour,macro-averaged F1,no,no,no,"Care must be taken to accommodate the skew towards the 'comment' class, which dominates, as well as being the least helpful type of data in establishing rumour veracity. Therefore we used macro-averaged F1"
 2019,4,News classification,"accuracy, no",no,no,no,-
 2018,1,Affect in tweets,accuracy maco/micro F1,yes,no,no,-
-2018,2,Emoji prediction,"macro averages over acc., F1",no,no/weak,no,"Because of the skewed distribution of the label set we opted for macro average over all labels"
-2018,3,Irony prediction,macro-averaging,yes,no/weak,no,"implies that all class labels have equal weight in the final score." 
+2018,2,Emoji prediction,"macro averages over acc., F1",no,no/weak,no,Because of the skewed distribution of the label set we opted for macro average over all labels
+2018,3,Irony prediction,macro-averaging,yes,no/weak,no,implies that all class labels have equal weight in the final score
 2018,4,(Literary) character recognition,macro F1,yes,no,no,"Metric selection ""follow Chen 2017"", but Chen 2017 also do not seem to provide a justification"
 2018,10,Capturing attributes,average F1,no,no,no,-
 2018,7,Relation classification,macro F1,no,no,no,-
