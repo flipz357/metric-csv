@@ -22,7 +22,7 @@ year,task,short description,main metric,definition,justification,class balanced 
 2021,9,Fact verification,"Micro(?) F1, accuracy?",no,no,no,-
 2021,12,Learning with Disagreements,cross entropy,no,yes,no,-
 2021,11,KG graph structuring,F1,no,no,no,"standard precision, recall, and F1-score metrics were leveraged",
-2020,1,Detecting lexical change,accuracy,no,yes,"yes (but quote ""later turned out to be imbalanced"")",
+2020,1,Detecting lexical change,accuracy,no,yes,"yes (but quote ""later turned out to be imbalanced"")"
 2020,2,NLI,F1,no,no,no,standard F1 measure
 2020,4,CS validation,accuracy,no,yes,yes,-
 2020,5,Counterfactual recognition,F1,no,no,no,-
