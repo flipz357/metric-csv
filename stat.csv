@@ -7,7 +7,7 @@ year,task,short description,main metric,definition,justification,class balanced 
 2023,8,Claim identification,macro F1,no,no,no,-
 2023,10,Explanation/sexism,macro F1,no,no,no,-
 2023,12,African lang,weighted F1,yes,no,no,-
-2022,2,Stance detection,macro F1,no,no/weak,no,"Due to the imbalanced datasets"
+2022,2,Stance detection,macro F1,no,no/weak,no,Due to the imbalanced datasets
 2022,3,Semantic knowledge,F1-Macro,no,no,no,-
 2022,4,Condescendig language,macro-averaged F1-score,no,no,no,-
 2022,5,Misogyny,macro-average F1-score,yes,no,no,-
@@ -28,12 +28,12 @@ year,task,short description,main metric,definition,justification,class balanced 
 2020,5,Counterfactual recognition,F1,no,no,no,-
 2020,6,Definition extraction,"F1, median(?) F1",no,no,no,Not clear what measures where used for evaluation
 2020,7,Humor,accuracy,no,no,no?,-
-2020,8,Humor,macro F1,no,no,no,"macro F1 score that will help us to evaluate and analyse the individual class performance..." It's not clear why other metrics can't do this or how macro F1 does this...
-2020,9,Tweet sentiment,weighted F1,yes,no/weak,no,"We use a weighted F1 score since the number of instances per class is not equal"
+2020,8,Humor,macro F1,no,no,no,macro F1 score that will help us to evaluate and analyse the individual class performance. It's not clear why other metrics can't do this or how macro F1 does this...
+2020,9,Tweet sentiment,weighted F1,yes,no/weak,no,We use a weighted F1 score since the number of instances per class is not equal
 2020,11,Propaganda detection,accuracy/micro F1,no,no,no?,-
 2020,12,Offensive lang detection,macro F1,no,no,no,-
 2019,3,Emoticon detection,micro F1,yes,no,no,-
-2019,5,Hate-speech detection,macro F1,yes,no/weak,no,"In order to provide a measure that is independent on the class size"
+2019,5,Hate-speech detection,macro F1,yes,no/weak,no,In order to provide a measure that is independent on the class size
 2019,6,Offensive Language,macro-averaged F1,no,no,no,"Given the strong imbalance between the number of instances in the different classes across the three tasks, we used the macro-averaged F1-score"
 2019,9,Suggestion Mining,F1 score,no,no,no,-
 2019,8,Fact checking,"accuracy, F1, macro Recall",no,no,no,"mentions ""attractive properties of Macro Recall"", but uses accuracy as main ranking."
