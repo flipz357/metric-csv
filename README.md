@@ -8,13 +8,15 @@ Feel free to make a PR and extend the statistics.
 
 ## Statistics from the sample of 42 initial annotions
 
-|    | Formula | Justification | Weak Justification | No Justification
-|\#n | 10      | 5             | 6                  | 31
-|%   | 23.81   | 11.90         | 14.29              | 73.81
+|    | Formula | Justification | Weak Justification | No Justification |
+|----|---------|---------------|--------------------|------------------|
+|\#n | 10      | 5             | 6                  | 31               |
+|%   | 23.81   | 11.90         | 14.29              | 73.81            |
 
 ## Statistics from extended sample of 46 annotions
 
-|    | Formula  | Justification  | Weak Justification  | No Justification
-|\#n | 12       | 5              | 6                   | 33
-|%   | 26.09    | 10.86          | 17.39               | 71.8
+|    | Formula | Justification | Weak Justification | No Justification |
+|----|---------|---------------|--------------------|------------------|
+|\#n | 12      | 5             | 6                  | 33               |
+|%   | 26.09   | 10.86         | 17.39              | 71.8             |
 
