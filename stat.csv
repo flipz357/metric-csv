@@ -1,4 +1,4 @@
-year,task,short description,main metric,definition,justification,class balanced test set,notes
+year,task,short description,main metric,definition,justification,class balanced test set,notes/quotes
 2023,2,NER,macro F1,no,no,no,-
 2023,3,Framing,macro F1 and micro F1,no,no,no,"Subtask 1 is a multi-class classification problem. ""We used macro F1 as the official evaluation measure, but we also computed micro F1"". Subtask 2 is a multi-label multi-class classification problem. ""We used micro F1 as the official evaluation measure, but we also computed macro F1"". Subtask 3 is a multi-label multi-class classification problem. ""We used micro F1 as the official evaluation measure."""
 2023,4,Argument,macro F1BAR,yes,no,no,-
@@ -28,7 +28,7 @@ year,task,short description,main metric,definition,justification,class balanced 
 2020,5,Counterfactual recognition,F1,no,no,no,-
 2020,6,Definition extraction,"F1, median(?) F1",no,no,no,Not clear what measures where used for evaluation
 2020,7,Humor,accuracy,no,no,no?,-
-2020,8,Humor,macro F1,no,no,no,macro F1 score that will help us to evaluate and analyse the individual class performance. It's not clear why other metrics can't do this or how macro F1 does this...
+2020,8,Humor,macro F1,no,no,no,macro F1 score that will help us to evaluate and analyse the individual class performance. [comment: It's not clear why other metrics can't do this or how macro F1 does this...]
 2020,9,Tweet sentiment,weighted F1,yes,no/weak,no,We use a weighted F1 score since the number of instances per class is not equal
 2020,11,Propaganda detection,accuracy/micro F1,no,no,no?,-
 2020,12,Offensive lang detection,macro F1,no,no,no,-
