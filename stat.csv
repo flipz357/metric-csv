@@ -1,6 +1,6 @@
 year,task,short description,main metric,definition,justification,class balanced test set,notes/quotes
 2024,2,Medical NLI,macro F1,no,no/weak,no,"A possible (weak) motivation can be found in their motivation for designing two additional measures (that have no direct influence on the final ranking), Quote: ""Macro F1 score is instrumental in measuring overall model performance by highlighting precision and recall across various classes."""
-2024,3,Emotion Analysis,weighted average of F1,link to github,no/weak,no,"Quote: Taking into account the complexity of Subtask 1, we choose ""w-avg. P. F1"" as the main metric"
+2024,3,Emotion Analysis,weighted average of F1,no/link to github,no/weak,no,"Quote: Taking into account the complexity of Subtask 1, we choose ""w-avg. P. F1"" as the main metric"
 2024,4,Persuasion detection (Subtask 2b),macro F1 and micro F1,no,no,no,"Only task 2b is a multi-class classification task"
 2024,5,Argumentative Reasoning,F1 (or macro F1?) and Accuracy,no,no/weak,(probably) no(t)?,Quote: Due to the simplicity of the task
 2024,6,Hallucination Detection,Accuracy,no,no,no,The label prevalence across the classes  doesn't seem even
