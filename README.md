@@ -17,6 +17,13 @@ Feel free to make a PR and extend the statistics.
 
 |    | Formula | Justification | Weak Justification | No Justification |
 |----|---------|---------------|--------------------|------------------|
-|\#n | 12      | 5             | 6                  | 33               |
-|%   | 26.09   | 10.86         | 17.39              | 71.8             |
+|\#n | 12      | 5             | 6                  | 35               |
+|%   | 26.09   | 10.86         | 13.04              | 76.08            |
+
+## Statistics from extended sample of 54 annotions
+
+|    | Formula | Justification | Weak Justification | No Justification |
+|----|---------|---------------|--------------------|------------------|
+|\#n | 12      | 5             | 10                 | 39               |
+|%   | 22.22   | 9.26          | 18.52              | 72.22            |
 
