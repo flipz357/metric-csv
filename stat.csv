@@ -4,7 +4,7 @@ year,task,short description,main metric,definition,justification,class balanced 
 2024,4,Persuasion detection (Subtask 2b),macro F1 and micro F1,no,no,no,"Only task 2b is a multi-class classification task"
 2024,5,Argumentative Reasoning,F1 (or macro F1?) and Accuracy,no,no/weak,(probably) no(t)?,Quote: Due to the simplicity of the task
 2024,6,Hallucination Detection,Accuracy,no,no,no,the dataset doesn't seem to be balanced
-2024,7,NLU,average of micro F1,no,no,no,"Quote: ""The average of the micro-F1 score is used to evaluate the performance in Quantitative 101, and accuracy is used to evaluate the performance in NQuAD.""
+2024,7,NLU,average of micro F1,no,no,no,"Quote: ""The average of the micro-F1 score is used to evaluate the performance in Quantitative 101, and accuracy is used to evaluate the performance in NQuAD."""
 2024,8,Machine Text Detection,Accuracy,no,no/weak,no (but almost),may be implicitly motivated by almost balanced test set
 2024,10,Emotion Discovery,"Weighted F1, F1 score, F1 score (depending on task)",no,no,no,-
 2023,2,NER,macro F1,no,no,no,-
