@@ -41,7 +41,7 @@ year,task,short description,main metric,definition,justification,class balanced 
 2020,11,Propaganda detection,accuracy/micro F1,no,no,no?,-
 2020,12,Offensive lang detection,macro F1,no,no,no,-
 2019,3,Emoticon detection,micro F1,yes,no,no,-
-2019,5,Hate-speech detection,macro F1,yes,no/weak,no,In order to provide a measure that is independent on the class size
+2019,5,Hate-speech detection,macro F1 (or Micro F1?),yes,no/weak,no,Quote: In order to provide a measure that is independent on the class size; Note: The formulas look like Micro F1 / Accuracy
 2019,6,Offensive Language,macro-averaged F1,no,no,no,"Given the strong imbalance between the number of instances in the different classes across the three tasks, we used the macro-averaged F1-score"
 2019,9,Suggestion Mining,F1 score,no,no,no,-
 2019,8,Fact checking,"accuracy, F1, macro Recall",no,no,no,"mentions ""attractive properties of Macro Recall"", but uses accuracy as main ranking."
